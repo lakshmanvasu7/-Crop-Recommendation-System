@@ -1,11 +1,105 @@
-[![DOI](https://zenodo.org/badge/636972288.svg)](https://zenodo.org/badge/latestdoi/636972288)
+# 🌿 Cropify: Smart Crop Recommendation System
 
-<img src="https://github.com/omaresguerra/Cropify-Crop-Recommendation-System/blob/3ec9e47f649fd52b844733f2d9dee81b77b5893b/logo_cropify.png" alt="Cropify Logo">
+Cropify is a machine learning-powered web application that provides farmers and agriculturists with precise crop recommendations based on soil and weather parameters. The goal is to maximize yield and ensure sustainable agricultural practices using data-driven insights.
 
-## Crop Recommendation System
-This simple crop recommender system was trained using Random Forest Algorithm in giving recommendations to farmers the best and suitable crop based on an Indian Crop Recommendation Dataset. 
-By inputing N, P, K, and pH values based on soil conditions, weather conditions such as temperature, humidity, and rainfall, and regional location, the system can recommend what the best and most suitable crop to plant.
-This project is in partial fulfillment of the Final Project on MAN206 Predictive Modelling and Machine Learning.
+---
 
-Website App: https://cropify-crop-recommendation-system.streamlit.app/
+## 📈 Features
 
+* Predicts the best-suited crop to grow based on:
+
+  * Nitrogen (N), Phosphorus (P), Potassium (K)
+  * Temperature, Humidity
+  * Soil pH, Rainfall
+* Easy-to-use Flask web interface
+* Built using a trained Random Forest model
+* Clean UI with integrated crop insights and descriptions
+
+---
+
+## 📚 Tech Stack
+
+* **Frontend**: HTML, CSS, Bootstrap
+* **Backend**: Python, Flask
+* **ML Model**: Random Forest Classifier (scikit-learn)
+* **Data**: [Crop Recommendation Dataset](https://www.kaggle.com/datasets)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Python 3.7+ installed.
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Cropify.git
+cd Cropify
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python app.py
+```
+
+Navigate to `http://127.0.0.1:5000` in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+Cropify/
+├── app.py                     # Flask application
+├── logo_cropify.png           # Project logo
+├── requirements.txt           # Required packages
+├── README.md                  # Project documentation
+├── Dataset/
+│   ├── Crop_Desc.csv          # Descriptions of crops
+│   └── Crop_recommendation.csv # Training dataset
+├── Model/
+│   └── RDF_model.pkl          # Trained Random Forest model
+└── MAN 206 Project_...ipynb   # Project notebook
+```
+
+---
+
+## 🖼️ Screenshots
+
+> *Add screenshots of the web interface here.*
+
+---
+
+## 👥 Authors & Contributors
+
+* **Bernardino**
+* **Digan**
+* **Esguerra**
+
+Special thanks to the contributors and the open-source community.
+
+---
+
+## ✉️ Contact
+
+For any questions, suggestions, or feedback:
+
+* GitHub: [yourusername](https://github.com/yourusername)
+* Email: [your.email@example.com](mailto:your.email@example.com)
+
+---
+
+## ✉️ License
+
+This project is licensed under the MIT License.
