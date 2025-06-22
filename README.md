@@ -36,7 +36,7 @@ Make sure you have Python 3.7+ installed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Cropify.git
+git clone https://github.com/lakshmanvasu7/Cropify.git
 cd Cropify
 
 # Create virtual environment (optional but recommended)
@@ -75,8 +75,9 @@ Cropify/
 
 ---
 
-## 🖼️ Screenshots
-![image](https://github.com/user-attachments/assets/2b3cb981-0cce-4fdb-89cb-b6984ab3bf28)
+## 🖼️ Screenshots 
+![Screenshot 2025-06-22 115734](https://github.com/user-attachments/assets/5edf7235-4fa7-4233-be15-a1be622d9712)
+
 
 > *Add screenshots of the web interface here.*
 
@@ -96,8 +97,8 @@ Special thanks to the contributors and the open-source community.
 
 For any questions, suggestions, or feedback:
 
-* GitHub: [yourusername](https://github.com/yourusername)
-* Email: [your.email@example.com](mailto:your.email@example.com)
+* GitHub: [lakshmanvasu7](https://github.com/lakshmanvasu7)
+* Email: [vaasu.a3aa@gmail.com](mailto:vaasu.a3aa@gmail.com)
 
 ---
 
