@@ -76,6 +76,7 @@ Cropify/
 ---
 
 ## 🖼️ Screenshots
+![image](https://github.com/user-attachments/assets/2b3cb981-0cce-4fdb-89cb-b6984ab3bf28)
 
 > *Add screenshots of the web interface here.*
 
